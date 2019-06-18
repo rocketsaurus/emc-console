@@ -3,7 +3,7 @@ Serial port testing script
 
 <h2>Instructions - Mac</h2>
 
-1. ```git clone git@github.com:rocketsaurus/emc-console.git```
+1. ```git clone https://github.com/rocketsaurus/emc-console```
 2. ```cd emc-console```
 3. ```pip install -r requirements.txt```
 4. ```chmod +x console_test.py```
