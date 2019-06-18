@@ -10,8 +10,12 @@ Console testing script
 </ol>
 
 <h2>Flags</h2>
+
 -p or --port specifies the serial port to connect to.  To check: ls /dev/tty*
+
 -i or --iterations will set the number of times the script will repeat every second
+
 -t or --tolerance specifies the pass/fail criteria in seconds
+
 -v or --verbose if set will print out verbose logs
 
