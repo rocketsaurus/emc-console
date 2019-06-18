@@ -30,9 +30,9 @@ Measured time: 0:00:51.515244 - Pass
 
 <h2>Flags</h2>
 
-```-p``` or ```--port``` specifies the serial port to connect to.  To check: ls /dev/tty*
+```-p``` or ```--port``` specifies the serial port to connect to.  To check avaiable ports: ls /dev/tty*
 
-```-i``` or ```--iterations``` will set the number of times the script will repeat every second
+```-i``` or ```--iterations``` will set the number of times the script will repeat in 1 second intervals
 
 ```-t``` or ```--tolerance``` specifies the pass/fail criteria in seconds
 
