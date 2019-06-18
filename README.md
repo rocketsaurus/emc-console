@@ -1,21 +1,39 @@
 # emc-console
-Console testing script
+Serial port testing script
 
 <h2>Instructions - Mac</h2>
-<ol>
-    <li>git clone git@github.com:rocketsaurus/emc-console.git</li>
-    <li>pip install -r requirements.txt</li>
-    <li>chmod +x console_test.py</li>
-    <li>./console_test.py -p='/dev/tty.USA19H142P1.1' -i=10</li>
-</ol>
+
+1. ```git clone git@github.com:rocketsaurus/emc-console.git```
+2. ```pip install -r requirements.txt```
+3. ```chmod +x console_test.py```
+4. ```./console_test.py -p='/dev/tty.USA19H142P1.1' -i=10```
+
+```
+$ ./console_test.py -p='/dev/tty.USA19H142P1.1' -i=10
+Connection Open? True
+Local time: 2019-06-18 12:34:20.346520-07:00
+Server time: 2019-06-18 12:33:29-07:00
+Calibrated time delay: 0:00:51.346520
+Tolerance: 0:00:52.346520
+Measured time: 0:00:51.362988 - Pass
+Measured time: 0:00:51.379842 - Pass
+Measured time: 0:00:51.397187 - Pass
+Measured time: 0:00:51.412739 - Pass
+Measured time: 0:00:51.428326 - Pass
+Measured time: 0:00:51.448028 - Pass
+Measured time: 0:00:51.464338 - Pass
+Measured time: 0:00:51.480852 - Pass
+Measured time: 0:00:51.499239 - Pass
+Measured time: 0:00:51.515244 - Pass
+```
 
 <h2>Flags</h2>
 
--p or --port specifies the serial port to connect to.  To check: ls /dev/tty*
+```-p``` or ```--port``` specifies the serial port to connect to.  To check: ls /dev/tty*
 
--i or --iterations will set the number of times the script will repeat every second
+```-i``` or ```--iterations``` will set the number of times the script will repeat every second
 
--t or --tolerance specifies the pass/fail criteria in seconds
+```-t``` or ```--tolerance``` specifies the pass/fail criteria in seconds
 
--v or --verbose if set will print out verbose logs
+```-v``` or ```--verbose``` if set will print out verbose logs
 
