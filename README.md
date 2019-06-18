@@ -4,9 +4,10 @@ Serial port testing script
 <h2>Instructions - Mac</h2>
 
 1. ```git clone git@github.com:rocketsaurus/emc-console.git```
-2. ```pip install -r requirements.txt```
-3. ```chmod +x console_test.py```
-4. ```./console_test.py -p='/dev/tty.USA19H142P1.1' -i=10```
+2. ```cd emc-console```
+3. ```pip install -r requirements.txt```
+4. ```chmod +x console_test.py```
+5. ```./console_test.py -p='/dev/tty.USA19H142P1.1' -i=10```
 
 ```
 $ ./console_test.py -p='/dev/tty.USA19H142P1.1' -i=10
